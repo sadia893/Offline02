@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frame_Layout">
+
+
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="65dp">
+
+    <ImageView
+
+        android:id="@+id/chocolatemintcake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/chocolatemintcake" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="500dp"
+        android:background="#C7FBCA"
+        android:text="Chocolate Mint cake"
+        android:textSize="30dp" />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/coconutCake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/coconutcake" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="500dp"
+        android:background="#C7FBCA"
+        android:text="Coconut Cake "
+        android:textSize="30dp" />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/nutella"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/salteddark" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="500dp"
+        android:background="#C7FBCA"
+        android:text="Salted Dark Chocolate "
+        android:textSize="30dp" />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/redVel"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/redvel" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="500dp"
+        android:background="#EF837C"
+        android:text="Red Velvet "
+        android:textSize="30dp" />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/layercake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/layercake" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="520dp"
+        android:background="#EF837C"
+        android:text="Chocolate-cream layer cake "
+        android:textSize="30dp" />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/galaxy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/galaxycake"
+        />
+
+    <TextView
+        android:id="@+id/text6"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="520dp"
+        android:background="#EF837C"
+        android:text="Galaxy Cake "
+        android:textSize="30dp" />
+
+
+
+</FrameLayout>
+
+
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Abs"
+    android:background="@drawable/tablebg">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="167dp">
+
+        <RadioButton
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="54dp"
+            android:layout_y="143dp"
+            android:text="Chocolate Mint Cake"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="52dp"
+            android:layout_y="204dp"
+            android:text="Coconut Cake"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="51dp"
+            android:layout_y="261dp"
+            android:text="Salted Dark Chocolate Cake"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="57dp"
+            android:layout_y="317dp"
+            android:text="Red Velvet"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="53dp"
+            android:layout_y="377dp"
+            android:text="Chocolate-cream layer cake"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="52dp"
+            android:layout_y="436dp"
+            android:text="Galaxy Cake"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_x="122dp"
+        android:layout_y="474dp"
+        android:background="#FFFFFF"
+        android:text="CheckOut"
+        android:textSize="25dp" />
+</AbsoluteLayout>
